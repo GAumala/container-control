@@ -1,0 +1,3 @@
+# Replace the key material with the dedicated OpenClaw public key.
+# Keep this entire line as one line when placing it in authorized_keys.
+restrict,command="/usr/local/sbin/container-control" ssh-ed25519 AAAA_REPLACE_WITH_PUBLIC_KEY openclaw-devops-container-control
